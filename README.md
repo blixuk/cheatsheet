@@ -10,7 +10,7 @@ Giving cheatsheet no arguments will return a list of all cheat sheets.
 > cs
 ls
 ```
-Giving cheatsheet just the argument; if if there is a cheat sheet for it, it will return all the information in the cheat sheet.
+Giving cheatsheet just the argument; if there is a cheat sheet for it, it will return all the information in the cheat sheet.
 ```
 > cs ls
 # To display everything in <dir>, excluding hidden files:
@@ -40,6 +40,8 @@ ls -d .*/ */ <dir>
 ```
 Cheat sheets are plain text files with a '.ch' extension. They are written line by line and use a '#' for comments.
 
+The file extension and the comment symbol can be changed in the code.
+
 ```
 # To display everything in <dir>, excluding hidden files:
 ls <dir>
@@ -58,4 +60,8 @@ ls -d */ <dir>
 
 # To display directories only, include hidden:
 ls -d .*/ */ <dir>
+```
+Cheat sheets are stored in '.config'. This location can be changed in the code.
+```
+~/.config/cheatsheets/*.ch
 ```
