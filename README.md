@@ -7,7 +7,7 @@ cs              - Return a list of all cheat sheets
 cs <arg>        - Return the full cheat sheet for <arg>
 cs <arg> <key>  - Return all instances of <key> in <arg>
 cs <tag>        - Return a list of all mentions of <tag> in all cheat sheets
-cd <arg> <tag>  - Return all instances of <tag> in <arg>
+cs <arg> <tag>  - Return all instances of <tag> in <arg>
 ```
 Giving cheatsheet no arguments will return a list of all cheat sheets.
 ```
